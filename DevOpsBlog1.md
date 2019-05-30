@@ -1,8 +1,8 @@
-课堂笔记
-Git基本操作
-使用Git Bash生成证书
+ 课堂笔记
+ Git基本操作
+ 使用Git Bash生成证书
 
-$ssh-keygen.exe -t rsa
+#$ssh-keygen.exe -t rsa
 
 切换到用户家目录的.ssh目录下
 
