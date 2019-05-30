@@ -5,7 +5,7 @@
 
 
 ##开发流程
-###1.开发人员使用Develop分支进行日常发开，提交到Develop分支，然后自动触发Jenkins流水线
+1.开发人员使用Develop分支进行日常发开，提交到Develop分支，然后自动触发Jenkins流水线
 
 
 
