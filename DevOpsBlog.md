@@ -92,7 +92,7 @@
 
 
 
-$ node {
+$node {
 $   stage("拉取代码") {
 $       echo "拉取代码"
 $       git branch: 'develop', credentialsId: '237053ff-5317-4f3b-b106-b3b026006401', url: 'git@git.womaiyun.com:yinfei/devops-demo.git'
