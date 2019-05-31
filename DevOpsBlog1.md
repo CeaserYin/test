@@ -44,14 +44,14 @@ GitLab:
 Jenkins Pipeline练习
 Pipeline 练习：
 	node {
-	  stage("拉取代码") {
-	  echo "拉取代码"
+	stage("拉取代码") {
+	echo "拉取代码"
 	}
-	  stage("代码编译") {
-	  echo "代码编译"
+	stage("代码编译") {
+	echo "代码编译"
 	}
 	stage("单元测试") {
-	  echo "单元测试"
+	echo "单元测试"
 	}
 	stage("代码质量检查") {
 	echo "代码质量检查"
@@ -82,8 +82,8 @@ Develop： 用于日常代码开发
 #Pipeline 案例
 	node {
 	stage("拉取代码") {
-		echo "拉取代码"
-	    git branch: 'develop', credentialsId: '2abad7ed-e9be-43d9-8821-31270f04e42a', url: 'git@git.womaiyun.com:zhaoshundong/devops-demo.git'
+	echo "拉取代码"
+	git branch: 'develop', credentialsId: '2abad7ed-e9be-43d9-8821-31270f04e42a', url: 'git@git.womaiyun.com:zhaoshundong/devops-demo.git'
 	}
 	stage("代码编译") {
 	echo "代码编译"
